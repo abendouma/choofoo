@@ -37,6 +37,7 @@
     "release_jit": "npm run x_cssRelease && rm -r -f ./dist && npm run x_bump && npm run x_prod_jit && npm run x_sw && npm run x_rsync"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
     "@angular/animations": "^4.3.1",
     "@angular/common": "^4.3.1",
     "@angular/compiler": "^4.3.1",
